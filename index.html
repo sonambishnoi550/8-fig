@@ -50,7 +50,6 @@
                     },
                     fontFamily: {
                         "poppins": ["Poppins", 'sans-serif'],
-                        "abril": ["Abril Display", 'sans-serif'],
                     },
                     fontSize: {
                         "custom-base": "19px",
@@ -84,7 +83,17 @@
     </script>
     <style>
         body {
-            font-family: "Abril Display", 'sans-serif'!important;
+            font-family: "Abril Display", 'sans-serif' !important;
+        }
+
+        @font-face {
+            font-family: "abril-display";
+            src: url("assets/fonts/Abril_Display_Bold.otf");
+        }
+
+        @font-face {
+            font-family: "abril-display";
+            src: url("assets/fonts/Abril_Display_SemiBold.otf");
         }
     </style>
 
@@ -110,7 +119,7 @@
                 </div>
                 <div class="max-md:pt-[77px]">
                     <h1
-                        class=" text-white md:text-custom-2xl text-5xl max-w-[478px] leading-custom-base max-lg:text-center mx-auto max-md:text-left">
+                        class="md:font-bold font-semibold text-white md:text-custom-2xl text-5xl max-w-[478px] leading-custom-base max-lg:text-center mx-auto max-md:text-left">
                         Get AI funding
                         for your store</h1>
                     <p
@@ -179,7 +188,7 @@
                 <div>
                     <img src="assets/images/webp/one.webp" alt="one" class="max-w-[36px] max-md:mx-auto">
                     <h2
-                        class="text-black pt-[14px] md:max-w-[364px] max-w-[313px] max-md:mx-auto lg:text-custom-lg md:text-3xl text-custom-2md !leading-custom-3lg">
+                        class="text-black pt-[14px] font-semibold md:max-w-[364px] max-w-[313px] max-md:mx-auto lg:text-custom-lg md:text-3xl text-custom-2md !leading-[114%]">
                         Get an
                         AI evaluation of your
                         supply chain needs</h2>
@@ -208,7 +217,7 @@
                     <img src="assets/images/webp/rating-bbb.webp" alt="rating-bbb"
                         class="md:max-w-[83px] max-w-[53.38px] mx-auto">
                     <p
-                        class=" md:text-custom-xl text-custom-3md leading-custom-2lg text-white pt-[10px] whitespace-nowrap">
+                        class="font-semibold md:text-custom-xl text-custom-3md leading-custom-2lg text-white pt-[10px] whitespace-nowrap">
                         ‘A’ Rating</p>
                 </div>
                 <div>
@@ -216,8 +225,7 @@
                         class="text-white font-poppins font-normal md:text-custom-base text-xs leading-custom-xl whitespace-nowrap">
                         Average store
                         growth</p>
-                    <p
-                        class=" md:text-custom-xl text-custom-3md  leading-custom-2lg text-white pt-[10px] text-center">
+                    <p class="font-semibold md:text-custom-xl text-custom-3md  leading-custom-2lg text-white pt-[10px] text-center">
                         400%</p>
                 </div>
                 <div class="md:block hidden">
@@ -230,15 +238,14 @@
                     <p
                         class="text-white font-poppins font-normal md:text-custom-base text-xs leading-custom-xl text-center">
                         Funding given</p>
-                    <p
-                        class=" md:text-custom-xl text-custom-3md leading-custom-2lg text-white pt-[10px] text-center">
+                    <p class="font-semibold md:text-custom-xl text-custom-3md leading-custom-2lg text-white pt-[10px] text-center">
                         $450M+
                     </p>
                 </div>
                 <div class="md:hidden block">
                     <img src="assets/images/webp/trust.webp" alt="trust"
                         class="md:max-w-[140px] max-w-[89.5px] mx-auto">
-                    <p class=" md:text-custom-xl text-custom-3md  leading-custom-2lg text-white pt-[10px]">
+                    <p class="font-semibold md:text-custom-xl text-custom-3md  leading-custom-2lg text-white pt-[10px]">
                         Excellent</p>
                 </div>
             </div>
@@ -249,8 +256,7 @@
         <div class="container max-w-[1240px] mx-auto">
             <p class="font-medium text-sm text-dark-gray uppercase font-poppins text-center pb-5">still have questions?
             </p>
-            <p
-                class="text-black md:text-custom-lg text-custom-2md leading-custom-lg text-center md:pb-6 pb-10">
+            <p class="text-black md:text-custom-lg text-custom-2md leading-custom-lg text-center font-semibold md:pb-6 pb-10">
                 Learn more with FAQ
             </p>
             <div class="w-full !max-w-[1240px] mx-auto md:py-[60px]">
@@ -373,7 +379,7 @@
             <div class="flex md:py-12 pt-[51.2px] justify-between max-sm:flex-wrap">
                 <div class="md:pt-[69px] max-md:pb-[43.3px]">
                     <h2
-                        class="text-black lg:text-custom-lg md:text-3xl text-custom-2md !leading-custom-3lg max-w-[401px] pb-5 max-md:mx-auto max-md:text-center">
+                        class="text-black font-semibold lg:text-custom-lg md:text-3xl text-custom-2md !leading-custom-lg max-w-[401px] pb-5 max-md:mx-auto max-md:text-center">
                         Become an 8
                         figure seller with AI funding</h2>
                     <button
